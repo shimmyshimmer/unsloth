@@ -41,7 +41,7 @@ All notebooks are **beginner friendly**! Add your dataset, click "Run All", and 
 - Click [here](https://docs.unsloth.ai/) for detailed documentation for Unsloth.
 
 ## 🦥 Unsloth.ai News
-- 📣 NEW! [Apple's ML Cross Entropy](https://github.com/apple/ml-cross-entropy) is now added. This reduces Unsloth's memory use by a further 20%. Read their [research paper](https://arxiv.org/abs/2411.09009).
+- 📣 NEW! [Apple's ML Cross Entropy](https://github.com/apple/ml-cross-entropy) is now added. This reduces Unsloth's memory use by a further 20%. Read their [research paper](https://arxiv.org/abs/2411.09009). If you are using this for your research please [cite their paper](https://github.com/apple/ml-cross-entropy#citation).
 - 📣 NEW! [Vision models](https://unsloth.ai/blog/vision) now supported! [Llama 3.2 Vision (11B)](https://colab.research.google.com/drive/1j0N4XTY1zXXy7mPAhOC1_gMYZ2F2EBlk?usp=sharing), [Qwen 2.5 VL (7B)](https://colab.research.google.com/drive/1whHb54GNZMrNxIsi2wm2EY_-Pvo2QyKh?usp=sharing) and [Pixtral (12B) 2409](https://colab.research.google.com/drive/1K9ZrdwvZRE96qGkCq_e88FgV3MLnymQq?usp=sharing)
 - 📣 NEW! Qwen-2.5 including [Coder](https://colab.research.google.com/drive/18sN803sU23XuJV9Q8On2xgqHSer6-UZF?usp=sharing) models are now supported with bugfixes. 14b fits in a Colab GPU! [Qwen 2.5 conversational notebook]
 - 📣 NEW! We found and helped fix a [gradient accumulation bug](https://unsloth.ai/blog/gradient)! Please update Unsloth and transformers.
@@ -474,7 +474,6 @@ If you would like to cite Unsloth, you can use the following format:
 ```
 Daniel Han and Michael Han. Unsloth AI: Finetune LLMs 2x faster 2-5x faster with 80% less memory, 2023. https://github.com/unslothai/unsloth. GitHub repository.
 ```
-If you are using Apple's [ML Cross Entropy](https://github.com/apple/ml-cross-entropy), please [cite their paper](https://github.com/apple/ml-cross-entropy#citation).
 
 ### Thank You to
 - [HuyNguyen-hust](https://github.com/HuyNguyen-hust) for making [RoPE Embeddings 28% faster](https://github.com/unslothai/unsloth/pull/238)
