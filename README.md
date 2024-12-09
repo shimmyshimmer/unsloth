@@ -472,10 +472,17 @@ Two Tesla T4s on Kaggle
 ### Citation
 If you would like to cite Unsloth, you can use the following format:
 ```
-Daniel Han and Michael Han. Unsloth AI: Finetune LLMs 2x faster 2-5x faster with 80% less memory, 2023. https://github.com/unslothai/unsloth. GitHub repository.
+@misc{han2023unsloth,
+  author       = {Daniel Han and Michael Han},
+  title        = {Unsloth AI: Finetune LLMs 2x faster 2-5x faster with 80\% less memory},
+  year         = {2023},
+  url          = {https://github.com/unslothai/unsloth},
+  note         = {GitHub repository}
+}
 ```
 
 ### Thank You to
+- [Erik](https://github.com/erikwijmans) for his help adding [Apple's ML Cross Entropy](https://arxiv.org/abs/2411.09009) in Unsloth
 - [HuyNguyen-hust](https://github.com/HuyNguyen-hust) for making [RoPE Embeddings 28% faster](https://github.com/unslothai/unsloth/pull/238)
 - [RandomInternetPreson](https://github.com/RandomInternetPreson) for confirming WSL support
 - [152334H](https://github.com/152334H) for experimental DPO support
